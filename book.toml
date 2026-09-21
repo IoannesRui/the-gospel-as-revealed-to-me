@@ -7,7 +7,7 @@ language = "en"
 no-section-label = true # 自动序号
 
 [output.html.fold]
-enable = false    # 是否启用截面折叠
+enable = true    # 是否启用截面折叠
 level = 0         # 开始折叠的深度
 
 [build]

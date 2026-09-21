@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>232.治愈两个盲人与附魔的哑巴 - 我见我闻的福音</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="../favicon-8114d1fc.png">
+        <link rel="stylesheet" href="../css/variables-8adf115d.css">
+        <link rel="stylesheet" href="../css/general-e96d0476.css">
+        <link rel="stylesheet" href="../css/chrome-d279d366.css">
+        <link rel="stylesheet" href="../css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="../highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="../tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="../ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "../";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "../searchindex-0547d718.js";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="../toc-f9b0f772.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="../toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg></span>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">我见我闻的福音</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="mdbook-search-wrapper" class="hidden">
+                    <form id="mdbook-searchbar-outer" class="searchbar-outer">
+                        <div class="search-wrapper">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <span class=fa-svg id="fa-spin"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M304 48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zm0 416c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM48 304c26.5 0 48-21.5 48-48s-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48zm464-48c0-26.5-21.5-48-48-48s-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48zM142.9 437c18.7-18.7 18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zm0-294.2c18.7-18.7 18.7-49.1 0-67.9S93.7 56.2 75 75s-18.7 49.1 0 67.9s49.1 18.7 67.9 0zM369.1 437c18.7 18.7 49.1 18.7 67.9 0s18.7-49.1 0-67.9s-49.1-18.7-67.9 0s-18.7 49.1 0 67.9z"/></svg></span>
+                            </div>
+                        </div>
+                    </form>
+                    <div id="mdbook-searchresults-outer" class="searchresults-outer hidden">
+                        <div id="mdbook-searchresults-header" class="searchresults-header"></div>
+                        <ul id="mdbook-searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+                        <h1 id="第十册--232治愈两个盲人与附魔的哑巴"><a class="header" href="#第十册--232治愈两个盲人与附魔的哑巴">第十册 | 232.治愈两个盲人与附魔的哑巴</a></h1>
+<p>1945年7月28日</p>
+<p>232.1耶稣来到厨房，看见若望要去水泉，而自己也不想留在烟熏闷热的厨房，便决定和若望一起。祂离开了伯铎，后者正在处理载伯德仆人送来的鱼，好为师傅和祂的宗徒们预备晚餐。他们并没有到村子尽头的水泉，而是来到广场的喷水池，水源来自靠近湖边山坡上清澈丰沛的涌泉。广场上有很多群众，这是巴力斯坦人的习惯，傍晚都聚集在此处。妇女提着双耳罐，幼童在嬉戏，男人谈生意或当地的八卦……还有一些法利塞人，被家仆或顾客簇拥而行，经过广场返回豪宅的路上，每个人都毕恭毕敬靠边让他们通过，一旦离去，许多人打从心底诅咒这群人，谈论他们最近的弊端和放高利贷的事。232.2玛窦在广场的角落与老友高谈阔论，这引起法利塞人乌黎雅轻蔑地大声说:「好一个声名大噪的皈依者，罪依然照犯，从持续的旧友谊中可以看出端倪。啊！啊！……」玛窦转身，愤怒地回答:「持续的友谊是为了使他们归依。「没必要！有你师傅就够了。如果你真的被治愈，最好保持距离以免再次跌倒。玛窦脸色发紫努力克制自己，但并不轻饶对方，他说:「别害怕也别寄望。「什么？」「别怕我重回税更肋未的岗位，也别寄望我模仿你们错失这些灵魂。轻蔑和冷酷是你们这一伙人的专利！我会效法我的师傅去接近罪人，好引领他们皈依“圣宠”。」乌黎雅还想反驳，另一个法利塞人来到，老厄里对他说:「别玷污你的纯洁和舌头，朋友跟我来吧！便挽着他走向自己的屋子。</p>
+<p>232.3与此同时，人群里，特别是幼童都环绕耶稣，在孩子们当中有托比和约翰纳姐弟。很久以前，他们曾为了一些无花果而争吵参97.1章）。两人紧挨着耶稣高大的身躯，想引起祂的注意说:「听着，听着，今天我们都很乖。你知道吗？因为你的缘故，我们没再哭闹或互相取笑了。你会给我们一个吻吗？所以，你们为了我的缘故，一直都很乖！这给了我很大的喜乐。来，这是我的亲吻，明天要更好喔……」现场还有小雅格，就是玛窦归依前，每个安息日替他把钱囊交给耶稣的那个男孩参97.4章。他对耶稣说:「玛窦没有再给我任何东西，转交上主的穷人;但我把全部的零用钱存了起来，这是我表现良好的时候别人给的。为了祖父的益处，我现在把它交给你，祢会分施给穷人吗？我一定会。你祖父怎么了？他太老不能走路，他的双腿无法支撑！这让你难过吗？「是的，我很难过，因为他是我的导师。以前在郊外，他教导我爱天主和很多事情;现在他告诉我约伯的故事及天空星象,是坐在椅子上说的……过去多么美好呀！……」我明天去见你祖父。高兴吗？然后是本雅明，他不是玛加丹的本雅明，而是葛法翁的那个小男孩，我（华多达）在很久以前的神视中看见过他。当他和母亲一起到达广场看见耶稣时，立刻甩开母亲的手冲过人群像燕子般地尖叫，来到耶稣面前，抱住祂的膝盖说:我也要抱抱！」</p>
+<p>232.4此时法利塞人西满路过，他对耶稣热情地鞠躬，耶稣也回应了他。那法利塞人停下脚步，群众小心翼翼躲开了。法利塞人西满说:「你也给我一个拥抱吧！他微笑着。我拥抱任何要求我的人。恭喜你身体康复，西满。我在耶路撒冷时，听说你生病了！是的，病得很严重！我在寻找祢，想要得到治愈。你相信我能让你痊愈吗？「我从不怀疑。但得靠自己恢复，因为祢离开很久。祢到哪里去了？「到以色列边界。我在逾越节和五旬节之间每天都很忙碌。「一趟非常成功的旅程！我听本希农和史罗安的癞病人说了真的很棒！一定不只这样吧。我们透过若望司祭的转述:凡是对祢没有偏见，而且相信祢的，都得到了祝福！[可是那些因偏见而不相信的人又将如何？我聪明的西满！这法利塞人有些两难，因为他很多朋友对耶稣有成见，西满并不想和他们起冲突;另一方面，他希望赢得耶稣的嘉许。于是，他选择后者，便说:「已经有那么多证据，这些人仍不相信祢，该被谴责。「但我不希望如此……」「是的，你是这么想！可是我们不会以同样的善意回报你有太多人配不上你……耶稣，你明天愿意做我的贵宾吗？明天不能，安排在后天，你可以吗？我一向认同你。但有些朋友……如果他们……请你多包涵。明白，我和若望一起来。只有若望？」「其他人还有任务，现在他们从郊外回来了。西满，平安与你同在！「耶稣，天主与祢同在！法利塞人离去，耶稣加入了祂的宗徒团体。</p>
+<p>232.5他们回家用膳。正在吃烤鱼时，有些沿路恳求耶稣的盲人抵达，又重复要求说:「耶稣，达味之子，可怜我们吧！「走开！我告诉过你们明天再来，就是明天。让他好好吃顿饭。」伯铎责备地说。「不，西满，别赶走他们。这样坚持不懈值得奖赏！你们两个，上前来。耶稣说。瞎子用棍杖敲打地面和墙壁，发出了声音，摸索着前进。「你们相信我能使你们复明吗？啊！是的！主！我们来，是因为我们的确相信。耶稣从桌子旁站起身，走近他们并伸出指尖放在瞎子的眼皮抬起头来祈祷:「就依你们的信德成就吧！祂移开了手指,上，那一直没有动静的眼睛，因为强光而开始眨眼;另一个人的眼皮，原本因旧伤而沾黏，现在变得完美无瑕，可以自由地张开了。两个人跪倒在地。[可以起来了，回去吧！我提醒你们别让任何人知道我做的事，只要把恩典的好消息传给你们村里的亲友，无须在此处传开，这不会对你们的灵魂有益，要确保灵魂的信德不受任何伤害。现在你们体验到能够看见的滋味，要好好保护它别受伤，这样就不会再失明了！</p>
+<p>232.6晚餐结束，他们登上凉爽的露台，湖面在月光下闪闪发亮耶稣坐在矮墙边缘，望着银色的湖面，思绪徘徊于天外……其他人低声耳语，以免打扰到他。宗徒们看着师傅仿佛都着了迷。耶稣实在俊美帅气！月亮在他头部的周围形成一道光环，照亮了他的面容，连最细微的肤质都清晰可见……严肃而安详。祂坐着，头轻轻地向后倾斜，靠在往露台延伸、粗糙的藤蔓上。耶稣深蓝色的眼睛像玛瑙在夜晚绽放光芒，似乎是向万物倾注平安的波澜。有时祂抬头仰视星罗棋布的夜空;有时低头沿着山丘往下望，凝视湖面或遥远朦胧的光点……祂的眼睛盯着一些只有祂能看见的东西微笑。晚风轻柔地吹拂耶稣波浪形的头发，他侧身而坐，一只脚着地而另一只离地几英寸，双手放在腿上。身上的白袍衬托着祂的光辉，在月光下显得更加银白闪亮……白皙的手臂看起来像老象牙，细长的手指散发出男性的魅力！还有耶稣的面容:高高的额头，挺直的鼻梁，略呈椭圆形苍白的脸和浅铜色的髭须……在月光下看起来就像古老的象牙，失去了白天特有的粉色神韵「祢累了吗，师傅？」伯铎问。「不，我不累。」祢在沉思，看起来很苍白……</p>
+<p>232.7「我在思索。但不觉得自己比平时苍白。过来这里……月光让你们看起来也很苍白。你们明天去苛辣匝因，在那里可能会找到一些门徒，跟他们宣讲。记得黄昏要回到这里，我将在溪流附近开讲。「好极了！我们会告诉苛辣匝因的人。路上我们遇到玛尔大和马色拉，她们来过这里？」安德问道。「是，她们来过了。」玛加丹有很多关于玛利德莲的传闻。她不再出门也不举行任何宴会。我们仍住同一个妇女家里，是本雅明告诉我的，当他觉得自己不乖时，会想到祢和……」……和我，你可以这么说，雅各伯！依斯加略搭腔「他没提到你。「但他是这个意思。还说:「我宁愿乖乖的，也不要臭美……他瞥了我一眼，不能忍受我。」犹达斯，这无关紧要，就算了吧！耶稣说「是的，师傅。但很讨厌……」</p>
+<p>232.8师傅在吗？有人在街上喊道。「是，祂在。你们又想怎样？今天对你们来说还不够长吗？这个时间打扰别人对吗？你们明天再来。伯铎命令。我们的困难是身边有个附魔的哑巴，他在途中逃脱三次要不然早就来了。请帮个忙！过一会儿，当月亮高挂时，他会大声咆哮吓坏村里的人。他已经开始嚎叫了！……」耶稣走向露台的另一边，在矮墙上探头观望，宗徒们也照样作。一排脸孔向下俯瞰，一群人抬头仰观……他们中间有个人在移动，手腕被捆绑无法逃脱。像一只被束缚的熊或狼，惴惴不安地哀号……好像在地上寻找东西。当他抬起头来与耶稣的眼神交会时，像野兽般地狂嗥，一种难以言喻的呐喊且试图逃跑。几乎所有葛法翁的成年人都聚在那里，惊恐的闪开，行行好吧！他又开始了……」我马上到。耶稣跑下楼去找可怜的附魔者，他比先前更加激动。「我要你离开他！吼叫声平静了，取而代之的是一声:「平安！是的，平安！既然你被释放，那就平安了。看见突如其来的变化，由暴怒变成温和，从附魔到自由，喑哑到说话，群众都赞叹不已。</p>
+<p>232.9你们怎么知道我在这里？」纳匝肋人告诉我们:「祂在葛法翁。」还有两位原先瞎眼的人说，祢在这房里治愈了他们，我们再次得到佐证！那是真的！非常真实！他们都告诉了我们……」有很多人在喊叫，并且说:「在以色列从没见过这样的事！」「如果祂没有贝耳则步（魔王）的帮助，就不可能做到！……」葛法翁的法利塞人揶揄耶稣，西满不在其中。「有没有帮助……反正我已经痊愈;瞎子也看见了！即使你们夸大的祈祷都无法做到。」被释放的哑巴反驳，他亲吻耶稣的长袍。师傅不回应法利塞人，只是解散人群，祂说:「平安与你们同在！并邀请那康复者及陪伴的人留下休息，接待他们住在楼上房间直到天明。</p>
+<p>232.10耶稣说:「接下来你把1944年8月12日，迷途羔羊的比喻放在这里。」</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../10.第十册：耶稣宣教第二年（丁）/231.玛尔大在葛法翁求问耶稣，有关玛利德莲受折磨和挣扎的意义.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="../10.第十册：耶稣宣教第二年（丁）/233.广羊的比喻，玛加丹的玛利德莲偷偷旁听.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../10.第十册：耶稣宣教第二年（丁）/231.玛尔大在葛法翁求问耶稣，有关玛利德莲受折磨和挣扎的意义.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="../10.第十册：耶稣宣教第二年（丁）/233.广羊的比喻，玛加丹的玛利德莲偷偷旁听.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr-ef4e11c1.min.js"></script>
+        <script src="../mark-09e88c2c.min.js"></script>
+        <script src="../searcher-09f2665d.js"></script>
+
+        <script src="../clipboard-1626706a.min.js"></script>
+        <script src="../highlight-abc7f01d.js"></script>
+        <script src="../book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+
+    </div>
+    </body>
+</html>
